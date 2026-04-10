@@ -1,0 +1,15 @@
+pub mod emitter;
+pub mod error_handler;
+pub mod instructions;
+pub mod lexer;
+pub mod node;
+pub mod optimizer;
+pub mod parser;
+pub mod reader;
+pub mod symbol_table;
+pub mod token;
+pub mod value;
+pub mod virmac;
+pub mod builtins;
+pub mod constants_pool;
+pub mod debug;
